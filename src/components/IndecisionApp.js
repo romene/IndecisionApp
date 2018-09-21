@@ -112,7 +112,7 @@ export default class IndecisionApp extends React.Component {
 
         </div>
         <RemoveModal 
-          handleOpenModalRemove={this.state.handleOpenModalRemove}
+          handleOpenModalRemove={this.state.showModal}
           handleCancelRemoveModal={this.handleCancelRemoveModal}
           
            />
